@@ -1,4 +1,4 @@
-# Basic-Interpreter-2025
+# Basic-Interpreter-2026
 
 ## 目录
 
@@ -105,7 +105,7 @@ BASIC 是一门**解释性**编程语言，本次大作业要求你用 C++ 实�
 
 <a name="11"></a >
 ### Deadline
-第 12 周 周一 （12.1）18:30
+12.3 19:00
 
 <a name="12"></a >
 ### 本地评测
@@ -168,7 +168,7 @@ BASIC 是一门**解释性**编程语言，本次大作业要求你用 C++ 实�
 <a name="18"></a >
 ## 负责助教
 
-[@卓翔](https://github.com/zxsheather)，[@葛仁澍](https://github.com/TOmorrowarc1)
+[@赵睿城](https://github.com/TfOi9)，[@刘劢辰](https://github.com/lmc070222)
 
 <a name="19"></a >
 ## Special Thanks
@@ -176,3 +176,5 @@ BASIC 是一门**解释性**编程语言，本次大作业要求你用 C++ 实�
 感谢 22' ACM HenryHe0123, 22' ACM Irfnfnkemed 提供的文档 `Minimal-BASIC-Interpreter-2023.pdf` 。
 
 感谢 23' ACM [@李林璋](https://github.com/Seven-Streams)，[@王思瀚](https://github.com/leowang000)，[@李方可](https://github.com/algebraic-arima) 提供的代码实现参考。
+
+感谢 25' ACM [@卓翔](https://github.com/zxsheather)，[@葛仁澍](https://github.com/TOmorrowarc1) 对本项目的重构。
