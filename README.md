@@ -20,10 +20,8 @@
 - [Special Thanks](#16)
 
 
-<a name="1"></a>
 ##  简介
 
-<a name="2"></a>
 ### 背景
 
 BASIC 是一门**解释性**编程语言，本次大作业要求你用 C++ 实现这个语言中的一些功能，来完成一个 Minimal 版本的 BASIC 解释器。
@@ -34,20 +32,16 @@ BASIC 是一门**解释性**编程语言，本次大作业要求你用 C++ 实�
 - 执行特定控制语句
 - 按照行数升序依次运行的大程序
 
-<a name="3"></a>
 ### 作业目标
 
 - 锻炼文档的阅读能力
 - 初步了解解释器的设计
 - 锻炼 git 的使用
 
-<a name="4"></a>
 ## 作业要求
 
-<a name="5"></a>
 ### 基础任务
 
-<a name="6"></a>
 #### 下发文件
 
 ```plain
@@ -84,8 +78,6 @@ BASIC 是一门**解释性**编程语言，本次大作业要求你用 C++ 实�
 └── AttachedTest.cpp
 ```
 
-
-<a name="7"></a>
 #### 解释器实现说明
 
 **对于指令的介绍和要求详见 `docs/Minimal-BASIC-Interpreter-2023.pdf`** 。
@@ -94,20 +86,15 @@ BASIC 是一门**解释性**编程语言，本次大作业要求你用 C++ 实�
 对于bonus的部分详见`docs/Bonus.md`。
 你需要完成`include/`和`src/`下的头文件和源文件中的 TODO 部分。
 
-<a name="8"></a>
 #### 实现要求
 
 我们会进行基本的**鲁棒性检测**和**内存泄漏检测**，但是不进行性能检测，你只需要通过下发的数据点即可。
 
-<a name="10"></a>
-<a name="10"></a >
 ## 须知
 
-<a name="11"></a >
 ### Deadline
 12.3 19:00
 
-<a name="12"></a >
 ### 本地评测
 ```
 ├── Basic-Demo-64bit
@@ -119,9 +106,11 @@ BASIC 是一门**解释性**编程语言，本次大作业要求你用 C++ 实�
 
 #### 评测数据
 
-`test/` 文件夹中的 100 个数据点，与OJ中测评的数据点完全一致。
+`test/` 文件夹中的 100 个数据点，与 OJ 中测评的数据点完全一致。
 
-对于 bonus 中 Scope 嵌入部分另有 `test/scoped/` 文件夹中 16 个数据点，也与OJ上一致。
+对于 bonus 中 Scope 嵌入部分另有 `test/scoped/` 文件夹中 16 个数据点，也与 OJ 上一致。
+
+OJ 评测会有另外的 20 个高强度隐藏测试点。
 
 #### 评测原理
 
@@ -137,9 +126,7 @@ BASIC 是一门**解释性**编程语言，本次大作业要求你用 C++ 实�
 
 `Basic-Demo-64bit` 是标程的可执行文件，你可以用命令行输入 `./Basic-Demo-64bit` 来运行它，看看 BASIC 解释器是如何工作的。
 
-【注：
-
-如果你在wsl下运行 `./Basic-Demo-64bit` 时出现 Permission denied 错误，可以运行 `chmod +x Basic-Demo-64bit` 来修改权限。】
+【注：如果你在wsl下运行 `./Basic-Demo-64bit` 时出现 Permission denied 错误，可以运行 `chmod +x Basic-Demo-64bit` 来修改权限。】
 
 #### 评测脚本使用方法
 
@@ -147,7 +134,6 @@ BASIC 是一门**解释性**编程语言，本次大作业要求你用 C++ 实�
 
 【注意：如果你修改了仓库中给出框架的文件结构，请相应修改 `AttachedTest.cpp` 与 `ScopeTest.cpp` 中通过常量输入的相关文件路径，否则无法正常进行本地测试。】
 
-<a name="16"></a >
 ### OJ 评测
 
 你需要使用git进行版本管理和代码提交。比如，你的git仓库地址是 `Your_profile/Your_repo`，你只需要在OJ的提交页面中输入 `https://github.com/Your_profile/Your_repo` 即可。
@@ -156,21 +142,20 @@ BASIC 是一门**解释性**编程语言，本次大作业要求你用 C++ 实�
 
 测评文件内容默认是 Test 文件夹下提供的文件。这些文件和 OJ 中测评的数据点是相同的。在这些测试点下，你的程序需要输出与标程相同的结果。
 
-<a name="17"></a >
 ### 评分细则
 
-- 基础任务 80%
+- 基础任务 60%
+  - 按 OJ 得分给分
+- 隐藏测试点 20%
   - 按 OJ 得分给分
 - Code Review 20%
-- 使用智能指针 1% (bonus)
-- 实现 Scope 嵌入 2% (bonus)
+- 使用智能指针 3% (bonus)
+- 实现 Scope 嵌入 5% (bonus)
 
-<a name="18"></a >
 ## 负责助教
 
 [@赵睿城](https://github.com/TfOi9)，[@刘劢辰](https://github.com/lmc070222)
 
-<a name="19"></a >
 ## Special Thanks
 
 感谢 22' ACM HenryHe0123, 22' ACM Irfnfnkemed 提供的文档 `Minimal-BASIC-Interpreter-2023.pdf` 。
